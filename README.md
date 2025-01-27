@@ -6,7 +6,7 @@ La stratégie consiste en l'évaluation des sentiments des investisseurs en amon
 La stratégie s'établit en deux temps: 
 - un premier dans laquelle elle teste pour chaque action une multitude de combinaisons de paramètres (note minimale, période plus en moins longue d'entrée et sortie potentielles, stoploss et takeprofits)
 - un second dans laquelle on récupère manuellement les combinaisons les plus rentables sur ces premiers résultats pour chaque action, en cherchant à identifier des patterns entre les différents trimestres. Si on remarque une combinaison bénéficiaire à un semestre, on teste cette combinaison pour le semestre suivant.
-![Exemple résutlats](images/ex_results.png)
+![Exemple résutlats](ex_results.png)
 
 De nombreuses stratégies ont pu être testées sur environ 700 actions, sur 6 résultats trimestriels récents. Cette méthode en deux temps est la dernière en date, l'objectif initial avait pour volonté de repéré un pattern initial (un paramétrage gagnant) qui permettait d'imaginer un trading algorithmique de très court terme (swing trading) avec des résultats majoritairement gagnants afin de chercher à combiner un grand nombre de trades capitalisant les uns sur les autres.
 
