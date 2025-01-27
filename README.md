@@ -49,7 +49,7 @@ async def main():
                 print(f"Erreur pour l'action {action}: {e}")
                 continue
 asyncio.run(main())
-
+```
 
 ### 2. **`backtest.py`**
 Implémente le cœur du backtesting, calculant les rendements, la gestion des positions, et l'analyse des résultats.
